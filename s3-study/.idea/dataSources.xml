@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db_rds_study" uuid="0ef0f5c2-4af1-4d73-809c-8ede68c744ea">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://db-rds-study.c4vf81iso7gb.ap-northeast-2.rds.amazonaws.com/db_rds_study</jdbc-url>
+    </data-source>
+  </component>
+</project>
