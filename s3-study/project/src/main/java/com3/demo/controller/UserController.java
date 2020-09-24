@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 @RestController
 @RequiredArgsConstructor
@@ -26,8 +28,8 @@ public class UserController {
     }
 
     @GetMapping(value="")
-    public String hello() {
-        return "ㅎㅇ";
+    public String hello() throws UnknownHostException {
+        return "ㅎㅇ" + InetAddress.getLocalHost().getHostName();
     }
 
     @PostMapping(value= "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
