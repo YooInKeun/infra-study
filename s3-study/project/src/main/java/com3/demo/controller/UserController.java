@@ -29,7 +29,7 @@ public class UserController {
 
     @GetMapping(value="")
     public String hello() throws UnknownHostException {
-        return "ㅎㅇ" + InetAddress.getLocalHost().getHostName();
+        return "Hello" + InetAddress.getLocalHost().getHostName();
     }
 
     @PostMapping(value= "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
