@@ -8,7 +8,10 @@ spring:
     url: jdbc:postgresql://db-rds-study.c4vf81iso7gb.ap-northeast-2.rds.amazonaws.com/db_rds_study
   jpa:
     show-sql: true
-  session:
-    store-type: redis
+#  session:
+#    store-type: redis
   redis:
     host: localhost
+
+server:
+  port: 5000
