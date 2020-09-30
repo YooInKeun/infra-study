@@ -34,6 +34,3 @@ out/
 .vscode/
 
 .temp
-.gradle
-build
-.idea
