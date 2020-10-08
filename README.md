@@ -15,3 +15,5 @@
 ### jenkins 연동
 
 ### rabbitmq 연동
+
+### Auto Scaling -> SNS -> lambda -> slack 알림
