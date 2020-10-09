@@ -10,12 +10,12 @@ spring:
     show-sql: true
 #  session:
 #    store-type: redis
-  redis:
-    host: localhost
-  rabbitmq:
-    host: ec2-54-180-24-89.ap-northeast-2.compute.amazonaws.com
-    port: 5672
-    virtual-host: develop
+#  redis:
+#    host: localhost
+#  rabbitmq:
+#    host: ec2-54-180-24-89.ap-northeast-2.compute.amazonaws.com
+#    port: 5672
+#    virtual-host: develop
 
 server:
   port: 5000
